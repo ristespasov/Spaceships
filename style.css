@@ -1,0 +1,89 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('./assets/home.jpg');;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    padding-right: 75px ;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: rgb(255, 251, 0);
+}
+
+.nav-link:hover{
+    color: rgb(255, 251, 0) !important;
+    opacity: 0.7;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.7) ;
+    color: rgb(255, 251, 0) ;
+}
+
+.btn:hover{
+    color: rgb(255, 251, 0) !important;
+    opacity: 0.7;
+} 
+
+#body, thead, th, td {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+#height {
+    cursor: pointer;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7) ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.label {
+    color: white;
+    text-shadow: 2px 2px 4px #585858;
+}
+
+.inp {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.show-result tbody {
+  height:100px !important;
+  overflow-y: scroll !important;
+}
+
+.fight-table th, .fight-table td {
+    border: none !important;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 251, 0);
+}
+
+.display-none {
+    display: none;
+}
